@@ -15,7 +15,7 @@ As part of the take home assignment, I have deployed the model in Azure Machine 
 1. Clone or Upload the MNIST_AZURE folder in Azure Machine Learning Studio Notebooks
 2. Run the notebook file
 3. Get the scoring url from the real time endpoint created after the successful run
-5. You can use a python code or third party API like POSTMAN to invoke the endpoint using the scoring url and get the prediction results
+5. You can use a python code or third party product like POSTMAN to invoke the endpoint using the scoring url and get the prediction results
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
