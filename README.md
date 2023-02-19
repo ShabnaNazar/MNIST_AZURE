@@ -2,7 +2,7 @@
 
 #### Use case: Train and deploy an image classification model in Azure Machine Learning using MNIST dataset
 
-As part of the take home assignment, i have tried to implment the code using Azure ML. 
+As part of the take home assignment, I have deployed the model in Azure Machine Learning Studio. 
 
 ### For the experimentation phase, I have done the below steps to deploy the model as a real time endpoint. 
 1. Download a dataset and look at the data
@@ -12,7 +12,7 @@ As part of the take home assignment, i have tried to implment the code using Azu
 5. Test the model using a web request
 
 ### How to use the code?
-1. Clone or Upload the MNIST_AZURE folder in AzureMachine Learning Studio Notebooks
+1. Clone or Upload the MNIST_AZURE folder in Azure Machine Learning Studio Notebooks
 2. Run the notebook file
 3. Get the scoring url from the real time endpoint created after the successful run
 5. You can use a python code or third party API like POSTMAN to invoke the endpoint using the scoring url and get the prediction results
