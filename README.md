@@ -24,24 +24,24 @@ As part of the take home assignment, i have tried to implment the code using Azu
 
 Pre-requisites for multi account deployment using MLOps process
 1. Create a Azure DevOps project 
-2. Data Scientists will upload the source code, yaml files, score.py, testing scripts, environment details in Code Repo
-3. ML Engineers to create the template files for ML pipelines and confifurations required for training jobs like compute type and upload to Code Repo
+2. Data Scientists will upload the source code, yaml files, score.py, testing scripts, environment details in the Code Repo
+3. ML Engineers to create the template files for ML pipelines and confifurations required for training jobs like compute type, no of nodes etc and upload to Code Repo
 4. DevOps engineers will create the required configuration files and scripts to run the ML pipelines and IaC pipelines and upload to Code Repo
 
 Deployment to QA
-1. Create a Iac pipeline in the Azure DevOps project: Create the azure resources like resource group, ML workspace, compute instance, storage accounts etc using Terraform scripts in QA environment
-2. Create a Continuous Integration Pipeline in Azure DevOps project and add the scripts for the below tasks for automated run in QA environment
-    a. Register the dataset to ML workspace if required
+1. Create an Infra as Code (IaC) pipeline in the Azure DevOps project: Create the azure resources like resource group, ML workspace, compute instance, storage accounts etc using Terraform scripts in QA environment
+2. Create a Continuous Integration (CI) Pipeline in Azure DevOps project and add the scripts for the below tasks for automated run in QA environment
+    a. Register the dataset to ML workspace, if required
     b. Run Code Testing scripts
     c. Train and register the model
     d. Baseline the date quality
     f. Baseline the model quality
-3. Create a Continuous Deployment Pipeline in Azure DevOps project and add the scripts for the below tasks for automated run in QA environment
+3. Create a Continuous Deployment (CD) Pipeline in Azure DevOps project and add the scripts for the below tasks for an automated run in QA environment
     a. Deploy the model to an online endpoint
     b. Smoke testing 
 Based on the succesful testing in QA environment, we can start the automated deployment to PROD
-4. Create a Iac pipeline in the Azure DevOps project: Create the azure resources like resource group, ML workspace, compute instance, storage accounts etc using Terraform scripts in PROD environment
-5. Create a Continuous Deployment Pipeline in Azure DevOps project and add the scripts for the below tasks for automated run in QA environment
+4. Create an IaC pipeline in the Azure DevOps project: Create the azure resources like resource group, ML workspace, compute instance, storage accounts etc using Terraform scripts in PROD environment
+5. Create a CD Pipeline in Azure DevOps project and add the scripts for the below tasks for automated run in QA environment
     a. Download the required version of model from model registry in QA
     b. Deploy the model to an online endpoint
     e. Smoke testing
