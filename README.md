@@ -17,7 +17,15 @@ As part of the take home assignment, i have tried to implment the code using Azu
 3. Get the scoring url from the real time endpoint created after the successful run
 5. You can use a python code or third party API like POSTMAN to invoke the endpoint using the scoring url and get the prediction results
 
-### Next step would be to productionalize the model using MLPOps pipelines using a multi account deploymet process to Dev, QA and PROD
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### Next step would be to productionalize the model using MLPOps pipelines using a multi account deploymet process to Dev, QA and PROD. Below are the standard steps follows for productionalizing a model at scale
+
+Pre-requisites for multi account deployment using MLOps process
+1. Data Scientists will upload the source code, yaml files, score.py, testing scripts, environment details
+2. ML Engineers to create the template files for ML pipelines and confifurations required for training jobs like compute type
+3. DevOps engineers will create the 
 
 
 
