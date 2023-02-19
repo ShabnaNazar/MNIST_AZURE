@@ -1,4 +1,4 @@
-name: quickstart-azureml-in-10mins
+name: image_classifier_mnist
 dependencies:
 - pip:
   - azureml-sdk
