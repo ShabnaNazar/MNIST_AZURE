@@ -45,10 +45,4 @@ Based on the succesful testing in QA environment, we can start the automated dep
     a. Download the required version of model from model registry in QA
     b. Deploy the model to an online endpoint
     e. Smoke testing
- 6. Create a Monitoring pipeline to monitoring to review the data drift or model drift (Based on ground truth availabilty) and system performance matrices to alert users in case of any issues
-Trigger the CI pipeline incase retraining is required with the new dataset or with the new code
-
-
-
-
-
+ 6. Create a Monitoring pipeline to monitoring to review the data drift or model drift (Based on ground truth availabilty) and system performance matrices to alert users in case of any issues. Trigger the CI pipeline incase retraining is required with the new dataset or with the new code
