@@ -4,12 +4,12 @@
 
 As part of the take home assignment, I have deployed the model in Azure Machine Learning Studio. 
 
-### For the experimentation phase, I have done the below steps to deploy the model as a real time endpoint. 
+#### During the experimentation phase, I have done the below steps to deploy the model as a real time endpoint. 
 1. Download a dataset and look at the data
 2. Train an image classification model and log metrics using MLflow
 3. Check the Model performance matrix
 4. Deploy the model to a real time endpoint
-5. Test the model using a web request
+5. Test the model using an API request
 
 ### How to use the code?
 1. Clone or Upload the MNIST_AZURE folder in Azure Machine Learning Studio Notebooks
@@ -20,7 +20,7 @@ As part of the take home assignment, I have deployed the model in Azure Machine 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-#####  Next step would be to productionalize the model using MLOps pipelines using a multi account deploymet process to QA and PROD. Below are the standard steps for productionalizing a model at scale
+#####  Next steps would be to productionalize the model using MLOps pipelines using a multi account deploymet process to QA and PROD. Below are the standard steps for productionalizing a model at scale
 
 Pre-requisites for multi account deployment using MLOps process
 1. Create a Azure DevOps project 
