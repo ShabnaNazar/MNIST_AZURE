@@ -1,6 +1,6 @@
 # MNIST_AZURE
-Deploy the MNIST model in Azure 
-Use case: Train and deploy an image classification model in Azure Machine Learning using MNIST dataset
+
+#### Use case: Train and deploy an image classification model in Azure Machine Learning using MNIST dataset
 
 As part of the assignemnt, i have tried to implment the code using Azure ML. During the experimentation or poc phase I have done the below steps deploy the model as a real time endpoint. 
 
