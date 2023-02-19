@@ -1,4 +1,4 @@
-# MNIST_AZURE
+# MNIST_AZURE_ML
 
 #### Use case: Train and deploy an image classification model in Azure Machine Learning using MNIST dataset
 
