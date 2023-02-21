@@ -18,7 +18,7 @@ As part of the take home assignment, I have deployed the model in Azure Machine 
 5. You can use a python code or third party product like POSTMAN to invoke the endpoint using the scoring url and get the prediction results
 
 Note: Detailed steps for Deployment and Usage is specified in below document
-#### Model_Deployment_And_Usage.docx
+#### Section2_ML_Model_Deployment_In_Azure.docx
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
