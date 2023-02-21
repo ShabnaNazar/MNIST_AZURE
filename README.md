@@ -43,10 +43,12 @@ Deployment to QA
     a. Deploy the model to an online endpoint
     b. Smoke testing 
 Based on the succesful testing in QA environment, we can start the automated deployment to PROD
+
 Deployment to PROD
+
 1. Create an IaC pipeline in the Azure DevOps project: Create the azure resources like resource group, ML workspace, compute instance, storage accounts etc using Terraform scripts in PROD environment
 2. Create a CD Pipeline in Azure DevOps project and add the scripts for the below tasks for automated run in QA environment
     a. Download the required version of model from model registry in QA
     b. Deploy the model to an online endpoint. 
     e. Smoke testing
- 2 Create a Monitoring pipeline to monitoring to review the data drift or model drift (Based on ground truth availabilty) and system performance matrices to alert users in case of any issues. Trigger the CI pipeline incase retraining is required with the new dataset or with the new code
+3. Create a Monitoring pipeline to monitoring to review the data drift or model drift (Based on ground truth availabilty) and system performance matrices to alert users in case of any issues. Trigger the CI pipeline incase retraining is required with the new dataset or with the new code
