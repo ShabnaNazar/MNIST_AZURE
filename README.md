@@ -5,8 +5,8 @@
 As part of the take home assignment, I have deployed the model in Azure Machine Learning Studio. 
 
 ##### During the experimentation phase, I have done the below steps to deploy the model as a real time endpoint. 
-1. Download a dataset and look at the data
-2. Train an image classification model and log metrics using MLflow
+1. Download the MNIST dataset from Azure Open Datasets  and review the data
+2. Train the MNIST dataset using Logistic Regression model and log metrics using MLflow
 3. Check the Model performance matrix
 4. Deploy the model to a real time endpoint
 5. Test the model using an API request
@@ -17,7 +17,7 @@ As part of the take home assignment, I have deployed the model in Azure Machine 
 3. Get the scoring url from the real time endpoint created after the successful run
 5. You can use a python code or third party product like POSTMAN to invoke the endpoint using the scoring url and get the prediction results
 
-Note: Detailed steps for Deployment and Usage is specified in Model_Deployment_And_Usage.docx
+Note: Detailed steps for Deployment and Usage is specified in #### Model_Deployment_And_Usage.docx
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
