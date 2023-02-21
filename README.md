@@ -1,6 +1,6 @@
 # MNIST_AZURE_ML
 
-#### Use case: Train and deploy an image classification model in Azure Machine Learning using MNIST dataset
+#### Use case: Train and deploy a model for MNIST dataset in Azure Machine Learning using Azure MNIST Open Dataset
 
 As part of the take home assignment, I have deployed the model in Azure Machine Learning Studio. 
 
