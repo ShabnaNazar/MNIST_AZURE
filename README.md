@@ -23,7 +23,7 @@ Note: Detailed steps for Deployment and Usage is specified in below document
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-#####  Next steps would be to productionalize the model using MLOps pipelines using a multi account deploymet process to QA and PROD. Below are the standard steps for productionalizing a model at scale
+#####  Next steps would be to productionalize the model using MLOps pipelines using a multi account deploymet process to QA and PROD. Below are the standard steps for productionalizing the model at scale
 
 Pre-requisites for multi account deployment using MLOps process
 1. Create a Azure DevOps project 
